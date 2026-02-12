@@ -54,7 +54,7 @@ Basic syntax: `docker run <image>`
 
 Example using the official Nginx image:
 
-```docker
+```dockerfile
 docker run nginx
 ```
 
@@ -69,7 +69,7 @@ By default, containers run in the foreground. Your terminal is attached to the c
 
 To run a container in detached mode (background):
 
-```docker
+```dockerfile
 docker run -d nginx
 ```
 
@@ -79,7 +79,7 @@ The `-d` flag tells Docker to run the container in the background and return con
 
 To see active containers:
 
-```docker
+```dockerfile
 docker ps
 ```
 
@@ -95,7 +95,7 @@ This shows:
 
 To see all containers (including stopped ones):
 
-```docker
+```dockerfile
 docker ps -a
 ```
 
@@ -103,7 +103,7 @@ docker ps -a
 
 To stop a running container:
 
-```docker
+```dockerfile
 docker stop <container_id>
 ```
 
@@ -113,13 +113,13 @@ You can use either the full container ID or the container name.
 
 After a container is stopped, it can be removed:
 
-```docker
+```dockerfile
 docker rm <container_id>
 ```
 
 To automatically remove a container after it stops:
 
-```docker
+```dockerfile
 docker run --rm nginx
 ```
 
@@ -138,7 +138,7 @@ The `--rm` flag ensures the container is deleted once it exits.
 
 When you run:
 
-```docker
+```dockerfile
 docker run nginx
 ```
 
