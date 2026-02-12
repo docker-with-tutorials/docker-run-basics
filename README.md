@@ -43,11 +43,12 @@ The docker run command performs multiple actions in a single step:
 4. Starts the container.
 5. Attaches the container’s output to your terminal (by default).
 
-Basic syntax:
+Basic syntax: `docker run <image>`
 
-```docker
-docker run <image>
-```
+### Illustrative Image
+
+<img width="1240" height="467" alt="image" src="https://github.com/user-attachments/assets/4d20ff72-e783-4a3f-a747-b503b9876ffa" />
+
 
 ## Running a Container
 
