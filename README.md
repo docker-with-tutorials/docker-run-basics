@@ -21,7 +21,7 @@ Understanding docker run is essential because it represents the bridge between s
 
 The examples in this repository are intentionally minimal to emphasize clarity and behavior over complexity.
 
-## Table of Contents
+## 📌 Table of Contents
 
 - [Overview](#overview)
 - [What `docker run` Does](#what-docker-run-does)
